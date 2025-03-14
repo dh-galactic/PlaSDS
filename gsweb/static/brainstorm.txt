@@ -1,0 +1,18 @@
+Types
+
+Rinse {
+    time: int in miliseconds
+    dilutentDispenseVolume: int in microliters
+}
+
+Sample{
+    sampleVolume: int in microliters
+    position: Position
+}
+
+Dispense{
+    dilutentDispenseVolume: int in microliters
+    position: Position
+}
+
+
